@@ -4,6 +4,8 @@ Minimal headless server for direct music/movies streaming + VPN
 ## Design*
 _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker containers)_
 
+**dashboard:** Glance (quick look at Aruzi's status)
+
  **music:** Navidrome + mpv (music streaming and playing capabilities)
  
  **vpn:** Tailscale (secure vpn to access the servers other devices)
