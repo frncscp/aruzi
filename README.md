@@ -13,6 +13,8 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
  **books:** Kavita (book server)
  
  **movies:** Plex (movies/music server)
+
+**proxy:** Caddy (URL redirect)
  
  **watchtower:** containers updater
 
