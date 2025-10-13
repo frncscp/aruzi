@@ -22,7 +22,7 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
  
  **watchtower:** containers updater
 
-*This design assummes a DAC will be plugged for Hi-Res Music streaming. Also, that there will be no transcoding at all, if that's the case, this setup barely consumes power. Finally, an external drive is required for media storage (in my case, a 2TB SATA SSD connected to a USB-to-SATA adapter), and a decent microSD is recommended to flash and run the OS.
+*This design assummes a DAC will be plugged for Hi-Res Music streaming. Also, that there will be no transcoding at all, if that's the case, this setup barely consumes power. Finally, an external drive is required for media storage (in my case, a 2TB SATA SSD connected to a USB-to-SATA adapter) and to flash/run the OS.
 
  ## Software
 
