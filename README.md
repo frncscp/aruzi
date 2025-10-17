@@ -27,6 +27,10 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
  ## Software
 
 - **rsync:** for file uploading
-- **docker:** for containerization 
+- **docker:** for containerization
+
+ ## Other capabilities
+
+ - Automatic generation of a 320kbps copy for hi-res albums.
 
 
