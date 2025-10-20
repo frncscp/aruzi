@@ -1,5 +1,5 @@
 # aruzi
-Minimal headless server for direct music/movies streaming + VPN
+Minimal headless server for software independence
 
 ## Design*
 _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker containers)_
@@ -15,6 +15,10 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
  **movies:** Plex (movies/music server)
 
  **torrent:** qBittorrent (web interface for downloading torrents)
+
+ **paswords:** Vaultwarden (password manager)
+
+ **blog:** Hugo
 
  **metrics:** Grafana (access to CPU, RAM and other resources metrics)
 
