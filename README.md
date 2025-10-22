@@ -8,7 +8,7 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
 
  **music:** Navidrome + mpv (music streaming and playing capabilities)
  
- **vpn:** Tailscale (secure vpn to access the servers other devices)
+ **vpn:** headscale (secure vpn to access the servers other devices)
  
  **books:** Kavita (book server)
  
