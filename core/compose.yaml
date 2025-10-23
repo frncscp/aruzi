@@ -1,0 +1,31 @@
+name: aruzi
+
+services:
+  headscale:
+    container_name: vpn
+    image: headscale/headscale:0.22.3
+    volumes:
+      - ../etc/headscale:/etc/headscale
+      - ../etc/headscale/data:/etc/headscale/data/
+    ports:
+    - "8080:8080"
+    command: headscale serve
+    restart: unless-stopped
+
+  caddy:
+    image: caddy:latest
+    restart: unless-stopped
+    container_name: proxy
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp" 
+    volumes:
+      - ../etc/caddy/Caddyfile:/etc/caddy/Caddyfile
+      - ../etc/caddy/site:/srv
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
