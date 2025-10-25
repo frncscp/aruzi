@@ -28,11 +28,6 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
 
 *This design assummes a DAC will be plugged for Hi-Res Music streaming. Also, that there will be no transcoding at all, if that's the case, this setup barely consumes power. Finally, an external drive is required for media storage (in my case, a 2TB SATA SSD connected to a USB-to-SATA adapter) and to flash/run the OS.
 
- ## Software
-
-- **rsync:** for file uploading
-- **docker:** for containerization
-
  ## Other capabilities
 
  - Automatic generation of a 320kbps copy for hi-res albums.
