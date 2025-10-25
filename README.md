@@ -1,4 +1,12 @@
-# aruzi
+```
+   _____                     .__ 
+  /  _  \_______ __ _________|__|
+ /  /_\  \_  __ \  |  \___   /  |
+/    |    \  | \/  |  //    /|  |
+\____|__  /__|  |____//_____ \__|
+        \/                  \/   
+```
+
 Minimal headless server for software independence
 
 ## Design*
