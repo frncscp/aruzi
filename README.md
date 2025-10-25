@@ -2,7 +2,7 @@
 Minimal headless server for software independence
 
 ## Design*
-_(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker containers)_
+_(NixOS on a Libre Computer Renegade ROC-RK3328-CC running multiple docker containers)_
 
 **dashboard:** Glance (quick look at Aruzi's status)
 
@@ -32,4 +32,11 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
 
  - Automatic generation of a 320kbps copy for hi-res albums.
 
+## Installation
 
+- Get latest NixOS Minimal Installation and proceed with manual installation (all details [here](https://nixos.wiki/wiki/NixOS_Installation_Guide))
+- Add git and docker to your NixOS config
+- Clone this repo wherever you like
+- Add `source path/to/aruzi/core/bash` to your .bashrc file
+- Create your core.env file based on the example provided
+- Run this command `aruzi` like if it were docker compose (aruzi up, aruzi down, etc)
