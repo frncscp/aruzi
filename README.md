@@ -39,4 +39,4 @@ _(NixOS on a Libre Computer Renegade ROC-RK3328-CC running multiple docker conta
 - Clone this repo wherever you like
 - Add `source path/to/aruzi/core/bash` to your .bashrc file
 - Create your core.env file based on the example provided
-- Run this command `aruzi` like if it were docker compose (aruzi up, aruzi down, etc)
+- Run this command `aruzi` like if it were docker compose (aruzi up, aruzi down, etc), assuming the repo was cloned at $HOME
