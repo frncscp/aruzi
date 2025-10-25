@@ -10,19 +10,19 @@ _(armbian on a Libre Computer Renegade ROC-RK3328-CC running multiple docker con
  
  **vpn:** headscale + headplane (secure vpn to access to content from other devices)
  
- **books:** Kavita (book server)
+ **docs:** paperless-ngx (docs server)
  
  **movies:** Plex (movies/music server)
 
- **torrent:** qBittorrent (web interface for downloading torrents)
-
  **paswords:** Vaultwarden (password manager)
-
- **blog:** Hugo
 
  **metrics:** Grafana (access to CPU, RAM and other resources metrics)
 
  **proxy:** Caddy (URL redirect)
+
+ **share** snapdrop (remote file transfer)
+
+ **manager** Portainer (container manager)
  
  **watchtower:** containers updater
 
