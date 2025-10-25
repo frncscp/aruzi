@@ -1,5 +1,4 @@
 name: aruzi
-env_file: ./core.env
 
 services:
   headscale:
@@ -13,7 +12,7 @@ services:
     command: headscale serve
     restart: unless-stopped
     env_file:
-    - ./core.env
+    - .env
     
 
   caddy:
@@ -30,7 +29,7 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     env_file:
-      - ./core.env
+      - .env
 
   glance:
     container_name: glance
@@ -42,12 +41,13 @@ services:
       - ../etc/glance/root/config/home.yml:/app/config/home.yml
       - ../etc/glance/root/assets:/app/assets
       - ../etc/localtime:/etc/localtime:ro
-
     # Optionally, also mount docker socket if you want to use the docker containers widget
       - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
     - ${GLANCE_PORT}:8080
-    env_file: ../etc/glance/root/.env
+    env_file: 
+      - ../etc/glance/root/.env
+      - .env
 
 volumes:
   caddy_data:
