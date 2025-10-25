@@ -1,5 +1,5 @@
 alias update="sudo nixos-rebuild switch"
-alias edit="nvim /etc/nixos/configuration.nix"
+alias edit="sudo nvim /etc/nixos/configuration.nix"
 aruzi() {
     local compose_file="$HOME/aruzi/core/compose.yaml"
     docker compose -f "$compose_file" "$@"
