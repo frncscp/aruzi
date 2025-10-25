@@ -1,0 +1,3 @@
+$(VPN_DOMAIN) {
+    reverse_proxy vpn:${HEADSCALE_PORT}
+}

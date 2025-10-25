@@ -6,7 +6,6 @@ Thumbs.db
 
 etc/headscale/config/
 etc/headscale/data/
-etc/caddy/
 media/
 
 *.log
@@ -20,10 +19,8 @@ media/
 
 etc/headscale/*.key
 etc/headscale/*.sqlite
-etc/headscale/config.yaml
 etc/headscale/config/
 etc/headscale/data/
-
-etc/headscale/config.yaml
-
-etc/caddy/
+etc/headscale/*.db
+etc/headscale/cache/
+etc/glance/root/.env
