@@ -36,7 +36,7 @@ _(NixOS on a Libre Computer Renegade ROC-RK3328-CC running multiple docker conta
  
  **watchtower:** containers updater
 
-*This design assummes a DAC will be plugged for Hi-Res Music streaming. Also, that there will be no transcoding at all, if that's the case, this setup barely consumes power. Finally, an external drive is required for media storage (in my case, a 2TB SATA SSD connected to a USB-to-SATA adapter) and to flash/run the OS.
+*This design assummes a DAC will be plugged for Hi-Res Music streaming. Also, that there will be no transcoding at all, if that's the case, this setup barely consumes power. Finally, an external drive is required for media storage (in my case, a 1TB SATA SSD connected to a USB-to-SATA adapter) and to flash/run the OS.
 
  ## Other capabilities
 
